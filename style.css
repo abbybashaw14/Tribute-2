@@ -14,7 +14,7 @@ h2 {
   font-size: 200%;
 }
 nav, footer {
-  background-color: #f7f7fb;
+  background-color: #EBEAEB; /*-- header and footer color--*/
 }
 
 nav {
@@ -22,5 +22,12 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   position: fixed;
-  width: 80%;
+  width: 100%;
+}
+nav a {
+  padding: .5em;
+}
+nav a:link, nav a:visited {
+  color: #424e6a;
+  text-decoration: none;
 }
