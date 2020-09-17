@@ -20,6 +20,11 @@ h2 {
   padding-bottom: .25em;
   border-bottom: 1px;
 }
+p {
+  font-size: 1em;
+  margin-bottom: .67em;
+  font-family: 'EB Garmond', serif;
+}
 nav, footer {
   background-color: #EBEAEB; /*-- header and footer color--*/
 }
