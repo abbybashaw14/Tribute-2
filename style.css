@@ -35,3 +35,15 @@ nav a:link, nav a:visited {
 nav a.active {
   color: #424e6a;
 }
+main {
+  padding: 0 2em 2em 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  justify-items: center;
+  grid-template-areas:
+    "one two three"
+    "img blog1 blog1"
+    "img blog2 blog2"
+    "img blog3 blog3"
+}
