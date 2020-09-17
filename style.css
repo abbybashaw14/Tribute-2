@@ -38,6 +38,9 @@ nav a:link, nav a:visited {
   color: #424e6a;
   text-decoration: none;
 }
+nav a:hover, nav a:visited {
+  text-decoration: underline;
+}
 nav a.active {
   color: #424e6a;
 }
