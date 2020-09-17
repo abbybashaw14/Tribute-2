@@ -3,3 +3,24 @@ body {
   color: #94949C;
   background-color: #dce6ef;
 }
+h1 {
+  font-size: 2em;
+  font-family: "georgia";
+  color: #424e6a;
+  text-align: center;
+}
+h2 {
+  color: #424e6a;
+  font-size: 200%;
+}
+nav, footer {
+  background-color: #f7f7fb;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  width: 80%;
+}
