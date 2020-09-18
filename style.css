@@ -26,10 +26,10 @@ a:hover{
   text-align: center;
   font-size: 1.2em;
   padding-bottom: .25em;
-  border-bottom: 1px;
+  border-bottom: 1px solid;
 }
 p {
-  font-size: 1em;
+  font-size: 115%;
   margin-bottom: .67em;
   font-family: 'EB Garmond', serif;
 }
@@ -43,6 +43,7 @@ nav {
   justify-content: space-around;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 nav a {
   padding: .5em;
