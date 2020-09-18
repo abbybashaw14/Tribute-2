@@ -14,6 +14,14 @@ h2 {
   color: #424e6a;
   font-size: 150%;
 }
+a {
+  text-decoration: none;
+  color: #94949C;
+  font-size: 125%;
+}
+a:hover{
+  text-decoration: underline;
+}
 #first h2, #second h2, #third h2 {
   text-align: center;
   font-size: 1.2em;
