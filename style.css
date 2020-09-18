@@ -57,6 +57,18 @@ nav a:hover, nav a:visited {
 nav a.active {
   color: #424e6a;
 }
+.hero-title {
+  position: relative;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300%;
+  color: #f7f7fb;
+}
 main {
   padding: 0 2em 2em 2em;
   display: grid;
