@@ -59,7 +59,28 @@ main {
     "one two three"
     "img blog1 blog1"
     "img blog2 blog2"
-    "img blog3 blog3"
+    "img blog3 blog3";
+}
+#first {
+  grid-area: one;
+}
+#second {
+  grid-area: two;
+}
+#third {
+  grid-area: three;
+}
+.wall {
+  grid-area: img;
+}
+.article-one {
+  grid-area: blog1;
+}
+.article-two {
+  grid-area: blog2;
+}
+.article-three {
+  grid-area: blog3;
 }
 img {
   max-width: 100%;
