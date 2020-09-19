@@ -94,6 +94,8 @@ main {
 }
 .wall {
   grid-area: img;
+  display: block;
+  margin: auto;
 }
 .article-one {
   grid-area: blog1;
